@@ -158,7 +158,7 @@ bool toggleHBMenuPath(char* curPath, PadState* pad) {
 
 int main(int argc, char* argv[]) {
     consoleInit(NULL);
-    printf("SwitchTime v0.1.5\n\n");
+    printf("SwitchTime v0.1.6 gzk_47\n\n");
 
     padConfigureInput(8, HidNpadStyleSet_NpadStandard);
     PadState pad;
@@ -257,3 +257,4 @@ int main(int argc, char* argv[]) {
         }
     }
 }
+
